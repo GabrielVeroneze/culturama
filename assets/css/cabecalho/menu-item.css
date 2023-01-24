@@ -1,0 +1,51 @@
+.menu__item {
+    color: var(--branco);
+    font-family: var(--fonte-primaria);
+    line-height: 20px;
+}
+
+.menu__item:nth-of-type(4) {
+    align-items: center;
+    display: flex;
+}
+
+.menu__item:nth-of-type(4)::after,
+.menu__item:nth-of-type(4)::before {
+    content: '';
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    transition: 3.3s;
+    width: 18px;
+}
+
+.menu__item:nth-of-type(4)::before {
+    background: url('../../img/icone-localização.svg') center / auto no-repeat;
+    margin-right: 0.5rem;
+}
+
+.menu__item:nth-of-type(4)::after {
+    background: url('../../img/expandir-mais.svg') center / auto no-repeat;
+    margin-left: 0.5rem;
+}
+
+.menu__item:nth-of-type(1) {
+    grid-area: logo;
+}
+
+.menu__item:nth-of-type(2) {
+    grid-area: programacao;
+}
+
+.menu__item:nth-of-type(3) {
+    grid-area: categorias;
+}
+
+.menu__item:nth-of-type(4) {
+    grid-area: localidade;
+}
+
+.menu__item:nth-of-type(5) {
+    grid-area: busca;
+    width: 100%;
+}

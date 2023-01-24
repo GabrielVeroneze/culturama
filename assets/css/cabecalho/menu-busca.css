@@ -1,0 +1,15 @@
+.menu__busca {
+    background-color: var(--preto);
+    border: 2px solid var(--branco);
+    border-radius: 10px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    line-height: 20px;
+    margin-top: 1rem;
+    padding: 0.625rem 0.5rem;
+    width: inherit;
+}
+
+.menu__busca::placeholder {
+    background: url('../../img/icone-busca.svg') right center / auto no-repeat;
+}
