@@ -1,0 +1,17 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --amarelo: #FFC756;
+    --azul: #7F8FFE;
+    --branco: #FFFFFF;
+    --cinza: #959595;
+    --cinza-claro: #C2C2C2;
+    --laranja: #FE652B;
+    --preto: #000000;
+    --verde: #56B78C;
+
+    --fonte-primaria: 'Fjalla One', sans-serif;
+    --fonte-secundadia: 'Work Sans', sans-serif;
+}
