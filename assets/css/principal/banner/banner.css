@@ -12,10 +12,11 @@
 
 @media screen and (min-width: 720px) {
     .banner {
-        grid-template-columns: 2fr 1fr 1fr;
+        gap: 1rem 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, max-content);
         grid-template-areas: 
-            'banner1 banner2 banner4'
-            'banner1 banner3 banner4';
+            'banner1 banner1 banner2 banner4'
+            'banner1 banner1 banner3 banner4';
     }
 }
