@@ -1,0 +1,16 @@
+.categorias__item {
+    color: var(--branco);
+    cursor: pointer;
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    line-height: 25px;
+    padding: 1.25rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 308px;
+}
+
+.categorias__item:nth-of-type(4n + 1) {background: var(--amarelo);}
+.categorias__item:nth-of-type(4n + 2) {background: var(--laranja);}
+.categorias__item:nth-of-type(4n + 3) {background: var(--azul);}
+.categorias__item:nth-of-type(4n + 4) {background: var(--verde);}

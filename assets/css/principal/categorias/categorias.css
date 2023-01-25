@@ -1,0 +1,9 @@
+.categorias {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 720px) {
+    .categorias {
+        margin-bottom: 1.5rem;
+    }
+}

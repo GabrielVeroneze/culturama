@@ -4,8 +4,14 @@
 @import url('./cabecalho/menu-busca.css');
 
 @import url('./principal/principal.css');
+
 @import url('./principal/banner/banner.css');
 @import url('./principal/banner/banner-imagem.css');
+
+@import url('./principal/categorias/categorias.css');
+@import url('./principal/categorias/categorias-titulo.css');
+@import url('./principal/categorias/categorias-lista.css');
+@import url('./principal/categorias/categorias-item.css');
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
@@ -17,7 +23,7 @@
     --branco: #FFFFFF;
     --cinza: #959595;
     --cinza-claro: #C2C2C2;
-    --laranja: #FE652B;
+    --laranja: #F66139;
     --preto: #000000;
     --verde: #56B78C;
 
