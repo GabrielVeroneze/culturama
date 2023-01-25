@@ -13,3 +13,9 @@
 .menu__busca::placeholder {
     background: url('../../img/icone-busca.svg') right center / auto no-repeat;
 }
+
+@media screen and (min-width: 720px) {
+    .menu__busca {
+        margin-top: 0;
+    }
+}

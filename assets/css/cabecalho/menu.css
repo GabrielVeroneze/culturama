@@ -1,10 +1,22 @@
 .menu {
+    align-items: center;
     display: grid;
     gap: 1rem 0;
-    grid-template-columns: repeat(4, 1fr) minmax(max-content, 1fr);
+    grid-template-columns: minmax(min-content, 1fr) 1fr minmax(max-content, 1fr);
     grid-template-areas: 
-        'logo logo logo logo logo'
-        'programacao . categorias . localidade'
-        'busca busca busca busca busca';
+        'logo logo logo'
+        'programacao categorias localidade'
+        'busca busca busca';
     justify-items: center;
+}
+
+@media screen and (min-width: 720px) {
+
+    .menu {
+        grid-template-columns: max-content 1fr 1fr max-content;
+        column-gap: 54px;
+        grid-template-areas: 
+            'logo programacao categorias localidade'
+            '. busca busca .';
+    }
 }

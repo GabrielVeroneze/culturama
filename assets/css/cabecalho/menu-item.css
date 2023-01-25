@@ -4,11 +4,6 @@
     line-height: 20px;
 }
 
-.menu__item:nth-of-type(4) {
-    align-items: center;
-    display: flex;
-}
-
 .menu__item:nth-of-type(4)::after,
 .menu__item:nth-of-type(4)::before {
     content: '';
@@ -43,6 +38,8 @@
 
 .menu__item:nth-of-type(4) {
     grid-area: localidade;
+    align-items: center;
+    display: flex;
 }
 
 .menu__item:nth-of-type(5) {
