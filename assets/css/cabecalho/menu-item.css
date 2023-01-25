@@ -46,3 +46,15 @@
     grid-area: busca;
     width: 100%;
 }
+
+@media screen and (min-width: 1440px) {
+    .menu__item {
+        font-size: 1.25rem;
+        line-height: 25px;
+    }
+
+    .menu__item:nth-of-type(1) > img {
+        height: auto;
+        width: 92px;
+    }
+}

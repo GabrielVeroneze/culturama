@@ -20,3 +20,12 @@
             '. busca busca .';
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .menu {
+        column-gap: 100px;
+        grid-template-columns: max-content 1fr max-content max-content max-content;
+        grid-template-areas: 
+            'logo busca programacao categorias localidade';
+    }
+}

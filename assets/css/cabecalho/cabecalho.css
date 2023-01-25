@@ -8,3 +8,9 @@
         padding: 1.5rem 2.5rem 2rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 0 7.5rem;
+    }
+}
