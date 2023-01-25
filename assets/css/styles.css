@@ -3,6 +3,10 @@
 @import url('./cabecalho/menu-item.css');
 @import url('./cabecalho/menu-busca.css');
 
+@import url('./principal/principal.css');
+@import url('./principal/banner/banner.css');
+@import url('./principal/banner/banner-imagem.css');
+
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');

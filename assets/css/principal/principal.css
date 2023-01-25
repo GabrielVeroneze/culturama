@@ -1,0 +1,15 @@
+.principal {
+    padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    .principal {
+        padding: 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        padding: 0 7.5rem;
+    }
+}
