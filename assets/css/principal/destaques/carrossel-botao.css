@@ -1,0 +1,25 @@
+.carrossel__botao {
+    background: var(--preto);
+    border-radius: 50%;
+    color: var(--branco);
+    flex-shrink: 0;
+    height: 24px;
+    margin: 0;
+    position: static;
+    width: 24px;
+}
+
+.carrossel__botao::after {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.botao--anterior::after {
+    position: relative;
+    right: 1px;
+}
+
+.botao--proximo::after {
+    position: relative;
+    left: 1px;
+}

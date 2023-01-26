@@ -13,6 +13,12 @@
 @import url('./principal/categorias/categorias-lista.css');
 @import url('./principal/categorias/categorias-item.css');
 
+@import url('./principal/destaques/destaques.css');
+@import url('./principal/destaques/carrossel-navegacao.css');
+@import url('./principal/destaques/carrossel-titulo.css');
+@import url('./principal/destaques/carrossel-barra.css');
+@import url('./principal/destaques/carrossel-botao.css');
+
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');

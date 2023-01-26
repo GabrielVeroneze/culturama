@@ -1,0 +1,7 @@
+.carrossel__titulo {
+    color: var(--preto);
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    line-height: 25px;
+    text-transform: uppercase;
+}
