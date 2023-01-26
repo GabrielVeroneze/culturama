@@ -1,5 +1,18 @@
 .carrosel__barra {
     background: var(--preto);
     height: 2px;
+    margin: 0 1rem 0 0.5rem;
     width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    .carrosel__barra {
+        margin: 0 3.375rem 0 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .carrosel__barra {
+        margin: 0 1.5rem 0 0.75rem;
+    }
 }

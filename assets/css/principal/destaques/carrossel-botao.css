@@ -14,6 +14,10 @@
     font-weight: 600;
 }
 
+.botao--anterior {
+    margin-right: 1.125rem;
+}
+
 .botao--anterior::after {
     position: relative;
     right: 1px;
@@ -22,4 +26,16 @@
 .botao--proximo::after {
     position: relative;
     left: 1px;
+}
+
+@media screen and (min-width: 720px) {
+    .botao--anterior {
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .botao--anterior {
+        margin-right: 1.875rem;
+    }
 }

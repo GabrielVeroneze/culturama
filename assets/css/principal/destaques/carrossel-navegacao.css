@@ -1,6 +1,12 @@
 .carrossel__navegacao {
     align-items: center;
     display: flex;
-    gap: 0 0.5rem;
     justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .carrossel__navegacao {
+        margin-bottom: 2.375rem;
+    }
 }

@@ -1,0 +1,7 @@
+.carrossel__legenda {
+    color: var(--branco);
+    background: rgba(217, 217, 217, 0.5);;
+    font-family: var(--fonte-primaria);
+    line-height: 20px;
+    padding: 0.625rem 0.875rem 0.625rem 1rem;
+}
