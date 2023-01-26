@@ -6,3 +6,9 @@
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 720px) {
+    .categorias__titulo {
+        margin-bottom: 1.5rem;
+    }
+}
