@@ -1,0 +1,5 @@
+.card {
+    background: var(--fundo-card);
+    font-family: var(--fonte-secundaria);
+    line-height: 20px;
+}
