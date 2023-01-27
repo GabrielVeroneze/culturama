@@ -24,11 +24,11 @@
 @import url('./principal/eventos/eventos.css');
 @import url('./principal/eventos/eventos-titulo.css');
 @import url('./principal/eventos/eventos-lista.css');
-@import url('./principal/eventos/eventos-botao.css');
-@import url('./principal/eventos/card.css');
+@import url('./principal/eventos/eventos-card.css');
 @import url('./principal/eventos/card-imagem.css');
 @import url('./principal/eventos/card-titulo.css');
 @import url('./principal/eventos/card-botao.css');
+@import url('./principal/eventos/eventos-botao.css');
 
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
