@@ -1,0 +1,22 @@
+.eventos__botao {
+    align-self: center;
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    line-height: 20px;
+    padding: 0.625rem 0;
+    width: 148px;
+}
+
+@media screen and (min-width: 720px) {
+    .eventos__botao {
+        align-self: flex-end;
+        width: 142px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .eventos__botao {
+        width: 180px;
+    }
+}
