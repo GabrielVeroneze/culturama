@@ -26,8 +26,8 @@
 @import url('./principal/eventos/eventos-lista.css');
 @import url('./principal/eventos/eventos-card.css');
 @import url('./principal/eventos/eventos-imagem.css');
-@import url('./principal/eventos/card-titulo.css');
-@import url('./principal/eventos/card-botao.css');
+@import url('./principal/eventos/eventos-tituloCard.css');
+@import url('./principal/eventos/eventos-botaoCard.css');
 @import url('./principal/eventos/eventos-botao.css');
 
 /* fontes */
