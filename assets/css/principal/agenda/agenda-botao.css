@@ -1,0 +1,23 @@
+.agenda__botao {
+    align-self: center;
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    line-height: 18px;
+    padding: 0.625rem;
+    width: 148px;
+}
+
+
+@media screen and (min-width: 720px) {
+    .agenda__botao {
+        align-self: flex-end;
+        width: 142px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .agenda__botao {
+        width: 180px;
+    }
+}

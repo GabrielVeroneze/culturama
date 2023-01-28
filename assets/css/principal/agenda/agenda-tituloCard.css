@@ -1,0 +1,7 @@
+.agenda__titulo-card {
+    color: var(--preto);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 20px;
+}

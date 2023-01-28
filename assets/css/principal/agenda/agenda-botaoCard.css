@@ -1,0 +1,8 @@
+.agenda__botao-card {
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    line-height: 18px;
+    padding: 0.4375rem 0;
+    width: 100%;
+}

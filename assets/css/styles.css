@@ -30,6 +30,17 @@
 @import url('./principal/eventos/eventos-botaoCard.css');
 @import url('./principal/eventos/eventos-botao.css');
 
+@import url('./principal/agenda/agenda.css');
+@import url('./principal/agenda/agenda-titulo.css');
+@import url('./principal/agenda/agenda-lista.css');
+@import url('./principal/agenda/agenda-card.css');
+@import url('./principal/agenda/agenda-imagem.css');
+@import url('./principal/agenda/agenda-data.css');
+@import url('./principal/agenda/agenda-atracao.css');
+@import url('./principal/agenda/agenda-tituloCard.css');
+@import url('./principal/agenda/agenda-botaoCard.css');
+@import url('./principal/agenda/agenda-botao.css');
+
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');

@@ -1,0 +1,10 @@
+.agenda__atracao {
+    background: #D9D9D9;
+    padding: 1.625rem 1.25rem 0.75rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .agenda__atracao {
+        padding: 2rem 1.5rem 1rem;
+    }
+}

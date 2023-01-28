@@ -1,0 +1,14 @@
+.agenda__data {
+    background: var(--cinza);
+    color: var(--branco);
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.agenda__data--maior {
+    font-size: 2rem;
+    line-height: 40px;
+}
