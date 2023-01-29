@@ -1,4 +1,5 @@
 .agenda__imagem {
     height: auto;
+    max-height: 168px;
     width: 100%;
 }

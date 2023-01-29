@@ -1,0 +1,19 @@
+.agenda__card {
+    flex-grow: 1;
+    width: 310px;
+}
+
+.agenda__card--oculto {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .agenda__card {
+        width: 384px;
+    }
+
+    .agenda__card--oculto {
+        display: block;
+    }
+}
