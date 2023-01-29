@@ -4,3 +4,9 @@
     max-height: 480px;
     width: 100%;
 }
+
+@media screen and (min-width: 720px) {
+    .eventos__imagem {
+        margin-bottom: 0.625rem;
+    }
+}
