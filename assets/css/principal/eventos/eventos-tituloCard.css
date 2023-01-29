@@ -1,4 +1,5 @@
 .eventos__titulo-card {
     font-size: 1.125rem;
     font-weight: 600;
+    grid-area: titulo;
 }

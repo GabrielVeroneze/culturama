@@ -4,6 +4,13 @@
     font-family: var(--fonte-secundaria);
     line-height: 20px;
     width: 307px;
+
+    display: grid;
+    grid-template-areas: 
+        'imagem imagem'
+        'titulo titulo'
+        'data data'
+        'local botao';
 }
 
 .eventos__card--oculto {
@@ -16,6 +23,6 @@
     }
 
     .eventos__card--oculto {
-        display: block;
+        display: grid;
     }
 }
