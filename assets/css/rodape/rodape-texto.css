@@ -1,0 +1,12 @@
+.rodape__texto {
+    color: var(--cinza-claro);
+    font-family: var(--fonte-secundaria);
+    font-size: 0.75rem;
+    line-height: 14px;
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape__texto {
+        font-size: 1rem;
+    }
+}

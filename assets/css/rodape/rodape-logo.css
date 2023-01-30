@@ -1,0 +1,14 @@
+.rodape__logo {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    width: 148px;
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape__logo {
+        width: 184px;
+    }
+}

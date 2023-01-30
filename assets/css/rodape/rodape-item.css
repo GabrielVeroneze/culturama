@@ -1,0 +1,19 @@
+.rodape__item {
+    color: var(--cinza-claro-2);
+    font-size: 0.875rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 16px;
+}
+
+@media screen and (min-width: 720px) {
+    .rodape__item {
+        color: var(--cinza-claro);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape__item {
+        font-size: 1rem;
+        line-height: 19px;
+    }
+}

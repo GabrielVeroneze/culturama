@@ -1,0 +1,19 @@
+.rodape {
+    background: var(--preto);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    .rodape {
+        padding: 2rem 2.5rem 1.625rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape {
+        padding: 2rem 7.5rem;
+    }
+}

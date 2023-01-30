@@ -43,6 +43,14 @@
 @import url('./principal/agenda/agenda-botaoCard.css');
 @import url('./principal/agenda/agenda-botao.css');
 
+@import url('./rodape/rodape.css');
+@import url('./rodape/rodape-lista.css');
+@import url('./rodape/rodape-item.css');
+@import url('./rodape/rodape-titulo.css');
+@import url('./rodape/rodape-logo.css');
+@import url('./rodape/rodape-imagem.css');
+@import url('./rodape/rodape-texto.css');
+
 /* fontes */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
@@ -53,6 +61,7 @@
     --branco: #FFFFFF;
     --cinza: #959595;
     --cinza-claro: #C2C2C2;
+    --cinza-claro-2: #D9D9D9;
     --laranja: #F66139;
     --preto: #000000;
     --verde: #56B78C;
@@ -60,7 +69,6 @@
     --fonte-primaria: 'Fjalla One', sans-serif;
     --fonte-secundaria: 'Work Sans', sans-serif;
 
-    --fundo-card: #D9D9D9;
 }
 
 * {
