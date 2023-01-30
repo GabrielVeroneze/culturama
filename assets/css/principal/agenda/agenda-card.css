@@ -1,6 +1,13 @@
 .agenda__card {
     flex-grow: 1;
     width: 310px;
+
+    display: grid;
+    grid-template-columns: 46.875% 53.125%;
+    grid-template-rows: repeat(2, max-content);
+    grid-template-areas: 
+        'imagem imagem'
+        'data atracao';
 }
 
 .agenda__card--oculto {
@@ -14,6 +21,6 @@
     }
 
     .agenda__card--oculto {
-        display: block;
+        display: grid;
     }
 }

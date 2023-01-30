@@ -2,7 +2,13 @@
     background: var(--preto);
     color: var(--branco);
     font-family: var(--fonte-secundaria);
+    height: 32px;
     line-height: 18px;
-    padding: 0.4375rem 0;
     width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .agenda__botao-card {
+        height: 40px;
+    }
 }

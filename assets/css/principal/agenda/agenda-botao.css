@@ -12,6 +12,7 @@
 @media screen and (min-width: 720px) {
     .agenda__botao {
         align-self: flex-end;
+        font-size: 1.125rem;
         width: 142px;
     }
 }

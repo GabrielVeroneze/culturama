@@ -1,9 +1,13 @@
 .agenda__data {
     background: var(--cinza);
     color: var(--branco);
+    display: flex;
+    flex-direction: column;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
+    grid-area: data;
     line-height: 30px;
+    padding: 1rem 0.25rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -11,4 +15,11 @@
 .agenda__data--maior {
     font-size: 2rem;
     line-height: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+    .agenda__data {
+        gap: 0.5rem 0;
+        padding: 1.5rem;
+    }
 }

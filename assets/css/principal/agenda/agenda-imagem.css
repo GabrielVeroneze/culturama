@@ -1,4 +1,5 @@
 .agenda__imagem {
+    grid-area: imagem;
     height: auto;
     max-height: 480px;
     width: 100%;
