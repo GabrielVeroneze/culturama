@@ -1,5 +1,5 @@
 .eventos__card {
-    background: var(--fundo-card);
+    background: var(--cinza-claro-2);
     flex-grow: 1;
     font-family: var(--fonte-secundaria);
     line-height: 20px;
