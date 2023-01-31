@@ -49,6 +49,7 @@
 @import url('./rodape/rodape-lista.css');
 @import url('./rodape/rodape-item.css');
 @import url('./rodape/rodape-titulo.css');
+@import url('./rodape/rodape-link.css');
 @import url('./rodape/rodape-logo.css');
 @import url('./rodape/rodape-imagem.css');
 @import url('./rodape/rodape-texto.css');
@@ -75,6 +76,15 @@
 
 * {
     box-sizing: border-box;
+}
+
+img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+img:hover {
+    opacity: 0.7;
 }
 
 button {
