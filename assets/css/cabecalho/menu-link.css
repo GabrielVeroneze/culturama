@@ -1,0 +1,13 @@
+.menu__link {
+    color: var(--branco);
+    font-family: var(--fonte-primaria);
+    line-height: 20px;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .menu__item {
+        font-size: 1.25rem;
+        line-height: 25px;
+    }
+}

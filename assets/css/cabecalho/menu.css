@@ -5,7 +5,7 @@
     grid-template-columns: minmax(max-content, 1fr) 1fr minmax(max-content, 1fr);
     grid-template-areas: 
         'logo logo logo'
-        'programacao categorias localidade'
+        'programacao categorias local'
         'busca busca busca';
     justify-items: center;
 }
@@ -16,7 +16,7 @@
         column-gap: 54px;
         grid-template-columns: max-content 1fr 1fr max-content;
         grid-template-areas: 
-            'logo programacao categorias localidade'
+            'logo programacao categorias local'
             '. busca busca .';
     }
 }
@@ -26,6 +26,6 @@
         column-gap: 100px;
         grid-template-columns: max-content 1fr max-content max-content max-content;
         grid-template-areas: 
-            'logo busca programacao categorias localidade';
+            'logo busca programacao categorias local';
     }
 }

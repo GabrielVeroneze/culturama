@@ -1,6 +1,8 @@
 @import url('./cabecalho/cabecalho.css');
 @import url('./cabecalho/menu.css');
 @import url('./cabecalho/menu-item.css');
+@import url('./cabecalho/menu-imagem.css');
+@import url('./cabecalho/menu-link.css');
 @import url('./cabecalho/menu-busca.css');
 
 @import url('./principal/principal.css');
