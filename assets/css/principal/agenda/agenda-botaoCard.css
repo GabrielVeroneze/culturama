@@ -1,11 +1,20 @@
 .agenda__botao-card {
-    background: var(--preto);
-    color: var(--branco);
+    border: 1px solid var(--preto);
+    color: var(--preto);
     font-family: var(--fonte-secundaria);
     height: 32px;
     line-height: 18px;
+    transition: 0.25s linear;
     width: 100%;
     max-width: 125px;
+}
+
+.agenda__botao-card:hover,
+.agenda__botao-card:focus {
+    box-shadow: 
+        inset -125px 0 0 0 var(--preto),
+        inset 125px 0 0 0 var(--preto);
+    color: var(--branco);
 }
 
 @media screen and (min-width: 1440px) {

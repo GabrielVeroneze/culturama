@@ -1,8 +1,17 @@
 .eventos__botao-card {
-    color: var(--branco);
-    background: var(--preto);
+    border: 1px solid var(--preto);
+    color: var(--preto);
     grid-area: botao;
     margin-right: 1rem;
     padding: 0.375rem 0;
+    transition: 0.25s linear;
     min-width: 80px;
+}
+
+.eventos__botao-card:hover,
+.eventos__botao-card:focus {
+    box-shadow: 
+        inset -80px 0 0 0 var(--preto),
+        inset 80px 0 0 0 var(--preto);
+    color: var(--branco);
 }
