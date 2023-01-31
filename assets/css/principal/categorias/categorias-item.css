@@ -4,10 +4,17 @@
     font-family: var(--fonte-primaria);
     font-size: 1.25rem;
     line-height: 25px;
+    opacity: 1;
     padding: 1.25rem 0;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.5s;
+    user-select: none;
     min-width: 282px;
+}
+
+.categorias__item:hover {
+    opacity: 0.7;
 }
 
 .categorias__item:nth-of-type(4n + 1) {background: var(--amarelo);}
