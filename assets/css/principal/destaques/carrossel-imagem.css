@@ -21,3 +21,9 @@
         background-image: url('../../../img/destaque-720.png');
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .carrossel__imagem {
+        height: 227px;
+    }
+}

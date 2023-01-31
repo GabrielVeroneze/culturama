@@ -1,3 +1,9 @@
 .destaques {
-    margin-bottom: 1.5rem;
+    grid-area: destaques;
+}
+
+@media screen and (min-width: 1440px) {
+    .destaques {
+        align-self: end;
+    }
 }

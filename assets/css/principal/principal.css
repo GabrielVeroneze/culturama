@@ -1,4 +1,13 @@
 .principal {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        'banner'
+        'categorias'
+        'destaques'
+        'eventos'
+        'agenda';
     padding: 0 1.5rem;
 }
 
@@ -11,5 +20,11 @@
 @media screen and (min-width: 1440px) {
     .principal {
         padding: 0 7.5rem;
+        grid-template-columns: repeat(2, calc(50% - 0.75rem));
+        grid-template-areas: 
+            'banner banner'
+            'categorias destaques'
+            'eventos eventos'
+            'agenda agenda';
     }
 }
