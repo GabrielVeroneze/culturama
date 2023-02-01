@@ -25,7 +25,7 @@
 
 @import url('./principal/eventos/eventos.css');
 @import url('./principal/eventos/eventos-titulo.css');
-@import url('./principal/eventos/eventos-lista.css');
+@import url('./principal/eventos/eventos-conteudo.css');
 @import url('./principal/eventos/eventos-card.css');
 @import url('./principal/eventos/eventos-imagem.css');
 @import url('./principal/eventos/eventos-tituloCard.css');

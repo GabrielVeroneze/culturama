@@ -1,11 +1,11 @@
-.eventos__lista {
+.eventos__conteudo {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 1.5rem;
 }
 
 @media screen and (min-width: 720px) {
-    .eventos__lista {
+    .eventos__conteudo {
         gap: 1.5rem;
     }
 }
