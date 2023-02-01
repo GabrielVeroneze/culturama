@@ -34,6 +34,14 @@
 @import url('./principal/eventos/eventos-botaoCard.css');
 @import url('./principal/eventos/eventos-botao.css');
 
+@import url('./principal/eventos/modal.css');
+@import url('./principal/eventos/modal-card.css');
+@import url('./principal/eventos/modal-imagem.css');
+@import url('./principal/eventos/modal-botaoFechar.css');
+@import url('./principal/eventos/modal-titulo.css');
+@import url('./principal/eventos/modal-data.css');
+@import url('./principal/eventos/modal-botao.css');
+
 @import url('./principal/agenda/agenda.css');
 @import url('./principal/agenda/agenda-titulo.css');
 @import url('./principal/agenda/agenda-lista.css');
@@ -76,6 +84,10 @@
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    position: relative;
 }
 
 img {

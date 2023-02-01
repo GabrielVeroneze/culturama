@@ -1,0 +1,8 @@
+.modal__botao-fechar {
+    height: 24px;
+    width: 24px;
+}
+
+.modal__botao-fechar::before {
+    content: url("../../../img/icone-fechar.svg");
+}

@@ -1,0 +1,16 @@
+.modal__card {
+    align-items: end;
+    background: var(--cinza-claro-2);
+    color: var(--preto);
+    display: grid;
+    font-family: var(--fonte-secundaria);
+    gap: 0.5rem 0;
+    grid-template-rows: max-content 30px repeat(3, max-content) 1fr;
+    height: 560px;
+    line-height: 19px;
+    padding-bottom: 1.5rem;
+}
+
+.modal__card > :not(.modal__imagem):not(.modal__botao) {
+    margin-left: 1.5rem;
+}

@@ -1,0 +1,7 @@
+.modal__botao {
+    background: var(--preto);
+    color: var(--branco);
+    justify-self: center;
+    padding: 0.4375rem 0;
+    width: 148px;
+}

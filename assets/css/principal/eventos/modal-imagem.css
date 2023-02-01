@@ -1,0 +1,8 @@
+.modal__imagem {
+    align-items: start;
+    background: url('../../../img/evento-1.png') center center / 100% 100% no-repeat;
+    display: flex;
+    height: 330px;
+    justify-content: right;
+    padding: 0.5rem;
+}
