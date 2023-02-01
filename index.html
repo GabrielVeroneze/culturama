@@ -84,13 +84,12 @@
                     <h3 class="eventos__titulo-card">Festival das Luzes</h3>
                     <p class="eventos__data">14/08/22</p>
                     <p class="eventos__local">São Paulo | SP</p>
-                    <button class="eventos__botao-card">Ver</button>
+                    <button class="eventos__botao-card" data-botao-abrir="modal-1">Ver</button>
                 </div>
-
-                <div class="modal">
+                <div class="modal" data-id="modal-1">
                     <div class="modal__card">
-                        <div class="modal__imagem">
-                            <button class="modal__botao-fechar"></button>
+                        <div class="modal__imagem modal__imagem-1">
+                            <button class="modal__botao-fechar" data-botao-fechar="modal-1"></button>
                         </div>
                         <h3 class="modal__titulo">Festival das Luzes</h3>
                         <p class="modal__data">14/08/22 | 18h</p>
@@ -108,22 +107,70 @@
                     <h3 class="eventos__titulo-card">Festa Latina</h3>
                     <p class="eventos__data">16/08/22</p>
                     <p class="eventos__local">São Paulo | SP</p>
-                    <button class="eventos__botao-card">Ver</button>
+                    <button class="eventos__botao-card" data-botao-abrir="modal-2">Ver</button>
                 </div>
+                <div class="modal" data-id="modal-2">
+                    <div class="modal__card">
+                        <div class="modal__imagem modal__imagem-2">
+                            <button class="modal__botao-fechar" data-botao-fechar="modal-2"></button>
+                        </div>
+                        <h3 class="modal__titulo">Festa Latina</h3>
+                        <p class="modal__data">16/08/22 | 99h</p>
+                        <p class="modal__local">São Paulo | SP</p>
+                        <p class="modal__endereco">
+                            Endereço:<br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                        <button class="modal__botao">Ver ingressos</button>
+                    </div>
+                </div>
+
                 <div class="eventos__card">
                     <img src="assets/img/evento-3.png" alt="Sala de cinema" class="eventos__imagem">
                     <h3 class="eventos__titulo-card">Festival de Cinema</h3>
                     <p class="eventos__data">16/08/22</p>
                     <p class="eventos__local">São Paulo | SP</p>
-                    <button class="eventos__botao-card">Ver</button>
+                    <button class="eventos__botao-card" data-botao-abrir="modal-3">Ver</button>
                 </div>
+                <div class="modal" data-id="modal-3">
+                    <div class="modal__card">
+                        <div class="modal__imagem modal__imagem-3">
+                            <button class="modal__botao-fechar" data-botao-fechar="modal-3"></button>
+                        </div>
+                        <h3 class="modal__titulo">Festival de Cinema</h3>
+                        <p class="modal__data">16/08/22 | 99h</p>
+                        <p class="modal__local">São Paulo | SP</p>
+                        <p class="modal__endereco">
+                            Endereço:<br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                        <button class="modal__botao">Ver ingressos</button>
+                    </div>
+                </div>
+
                 <div class="eventos__card">
                     <img src="assets/img/evento-4.png" alt="Corrida de bicicleta" class="eventos__imagem">
                     <h3 class="eventos__titulo-card">Corrida pela Saúde</h3>
                     <p class="eventos__data">18/08/22</p>
                     <p class="eventos__local">São Paulo | SP</p>
-                    <button class="eventos__botao-card">Ver</button>
+                    <button class="eventos__botao-card" data-botao-abrir="modal-4">Ver</button>
                 </div>
+                <div class="modal" data-id="modal-4">
+                    <div class="modal__card">
+                        <div class="modal__imagem modal__imagem-4">
+                            <button class="modal__botao-fechar" data-botao-fechar="modal-4"></button>
+                        </div>
+                        <h3 class="modal__titulo">Corrida pela Saúde</h3>
+                        <p class="modal__data">18/08/22 | 99h</p>
+                        <p class="modal__local">São Paulo | SP</p>
+                        <p class="modal__endereco">
+                            Endereço:<br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                        <button class="modal__botao">Ver ingressos</button>
+                    </div>
+                </div>
+
                 <div class="eventos__card eventos__card--oculto">
                     <img src="assets/img/evento-5.png" alt="Pikachu gigante" class="eventos__imagem">
                     <h3 class="eventos__titulo-card">Feira de animes</h3>
@@ -344,6 +391,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/initialize-swiper.js"></script>
 </body>
 </html>

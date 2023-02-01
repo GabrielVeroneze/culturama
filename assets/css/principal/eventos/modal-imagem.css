@@ -1,8 +1,23 @@
 .modal__imagem {
     align-items: start;
-    background: url('../../../img/evento-1.png') center center / 100% 100% no-repeat;
     display: flex;
     height: 330px;
     justify-content: right;
     padding: 0.5rem;
+}
+
+.modal__imagem-1 {
+    background: url('../../../img/evento-1.png') center center / 100% 100% no-repeat;
+}
+
+.modal__imagem-2 {
+    background: url('../../../img/evento-2.png') center center / 100% 100% no-repeat;
+}
+
+.modal__imagem-3 {
+    background: url('../../../img/evento-3.png') center center / 100% 100% no-repeat;
+}
+
+.modal__imagem-4 {
+    background: url('../../../img/evento-4.png') center center / 100% 100% no-repeat;
 }

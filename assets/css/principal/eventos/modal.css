@@ -1,9 +1,14 @@
 .modal {
     background: rgba(107, 107, 107, 0.9);
+    display: none;
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 9;
+}
+
+.modal--abrir {
+    display: block;
 }

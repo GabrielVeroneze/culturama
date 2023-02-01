@@ -5,8 +5,8 @@
     display: grid;
     font-family: var(--fonte-secundaria);
     gap: 0.5rem 0;
-    grid-template-rows: max-content 30px repeat(3, max-content) 1fr;
-    height: 560px;
+    grid-template-rows: max-content 38px repeat(3, max-content) 1fr;
+    height: 568px;
     line-height: 19px;
     padding-bottom: 1.5rem;
 }
