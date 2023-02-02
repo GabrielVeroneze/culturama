@@ -1,23 +1,17 @@
 .modal__imagem {
     align-items: start;
     display: flex;
-    height: 330px;
+    height: 320px;
     justify-content: right;
     padding: 0.5rem;
+    width: 100%;
 }
 
-.modal__imagem-1 {
-    background: url('../../../img/evento-1.png') center center / 100% 100% no-repeat;
-}
-
-.modal__imagem-2 {
-    background: url('../../../img/evento-2.png') center center / 100% 100% no-repeat;
-}
-
-.modal__imagem-3 {
-    background: url('../../../img/evento-3.png') center center / 100% 100% no-repeat;
-}
-
-.modal__imagem-4 {
-    background: url('../../../img/evento-4.png') center center / 100% 100% no-repeat;
-}
+.modal__imagem-1 {background: url('../../../img/evento-1.png') center center / cover no-repeat;}
+.modal__imagem-2 {background: url('../../../img/evento-2.png') center center / cover no-repeat;}
+.modal__imagem-3 {background: url('../../../img/evento-3.png') center center / cover no-repeat;}
+.modal__imagem-4 {background: url('../../../img/evento-4.png') center center / cover no-repeat;}
+.modal__imagem-5 {background: url('../../../img/evento-5.png') center center / cover no-repeat;}
+.modal__imagem-6 {background: url('../../../img/evento-6.png') center center / cover no-repeat;}
+.modal__imagem-7 {background: url('../../../img/evento-7.png') center center / cover no-repeat;}
+.modal__imagem-8 {background: url('../../../img/evento-8.png') center center / cover no-repeat;}

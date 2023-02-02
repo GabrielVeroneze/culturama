@@ -86,10 +86,6 @@
     box-sizing: border-box;
 }
 
-body {
-    position: relative;
-}
-
 img {
     opacity: 1;
     transition: 0.5s;
