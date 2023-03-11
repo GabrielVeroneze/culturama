@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://imgur.com/a/bGSRebK" alt="Praticando CSS: Grid e Flexbox"> </p>
+<p align="center"> <img src="https://imgur.com/5FE4gTc.png" alt="Praticando CSS: Grid e Flexbox"> </p>
 
 <hr>
 
@@ -24,5 +24,5 @@
 - `Javascript`: O Javascript tem um papel fundamental na funcionalidade do modal e carrossel da página.
 
 ## Screenshots
-![Screenshot da tela inicial do Culturama](https://imgur.com/r2as9Bs.png)
-![Screenshot do modal](https://imgur.com/a/PxJYxUc.png)
+![Screenshot da tela inicial do Culturama](https://imgur.com/pdBn9ql.png)
+![Screenshot do modal](https://imgur.com/pPrfjmO.png)
