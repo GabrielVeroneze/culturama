@@ -24,5 +24,5 @@
 - `Javascript`: O Javascript tem um papel fundamental na funcionalidade do modal e carrossel da página.
 
 ## Screenshots
-![Screenshot da tela inicial do Culturama](https://imgur.com/a/KQ7pHcA)
-![Screenshot do modal](https://imgur.com/a/9WYtXq0)
+![Screenshot da tela inicial do Culturama](https://imgur.com/r2as9Bs)
+![Screenshot do modal](https://imgur.com/a/PxJYxUc)
