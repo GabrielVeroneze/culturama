@@ -25,4 +25,5 @@
 
 ## Screenshots
 ![Screenshot da tela inicial do Culturama](https://imgur.com/pdBn9ql.png)
+
 ![Screenshot do modal](https://imgur.com/pPrfjmO.png)
